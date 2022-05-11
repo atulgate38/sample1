@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Reports>
+    <Item TCODE="Rec_TestMe21n" Completed="1" Incompleted="0" />
+  </Reports>
+  <Status>
+    <StatusExe ComponentName="Rec_TestMe21n" Iteration="1" Message="Reference document or master record has different language" ImagePath="C:\New folder4\Report\Rec_TestMe21n\DESKTOP-6LH0B3231182022_021830\Capture_14.png" StartTime="31Jan22 2:18:37 PM" EndTime="31Jan22 2:18:48 PM" />
+  </Status>
+</Items>

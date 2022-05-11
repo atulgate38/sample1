@@ -1,0 +1,22 @@
+TCODE.Start=me21n
+Foreach Data in Datanode
+CText("ctxtMEPO_TOPLINE-SUPERFIELD").CText=ctxtMEPO_TOPLINE-SUPERFIELD
+CText("Purch._Org.").CText=Purch._Org.
+CText("MEPO1222-EKGRP").Focus
+Key.Send("2")
+CText("Purch._Group").CText=Purch._Group
+Text("MEPO1211-EBELP[1,0]").Text=MEPO1211-EBELP[1,0]
+CText("ctxtMEPO1211-EMATN[5,0]").CText=ctxtMEPO1211-EMATN[5,0]
+Text("MEPO1211-MENGE[7,0]").Text=MEPO1211-MENGE[7,0]
+CText("ctxtMEPO1211-ELPEI[10,0]").CText=ctxtMEPO1211-ELPEI[10,0]
+CText("ctxtMEPO1211-NAME1[17,0]").CText=ctxtMEPO1211-NAME1[17,0]
+CText("MEPO1211-NAME1[17,0]").Focus
+Click("Enter")
+Table("SAPLMEGUITC_1211").VScroll=SAPLMEGUITC_1211
+Table("SAPLMEGUITC_1211").VScroll=SAPLMEGUITC_1211
+Btn("MEPO1211-STATUSICON[0,0]").Click
+PopUp("wnd[1]").Close
+Btn("btn[6]").Click
+Btn("SPOP-OPTION1").Click
+End
+TCODE.End
