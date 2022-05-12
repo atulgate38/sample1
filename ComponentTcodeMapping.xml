@@ -1,4 +1,3 @@
 <TcodeInfo>
-  <Tcode name="bibs" compNames="Rec_testingbibs" />
-  <Tcode name="me21n" compNames="Rec_TestMe21n,Rec_testcomponent1" />
+  <Tcode name="me21n" compNames="Rec_testrecording" />
 </TcodeInfo>
